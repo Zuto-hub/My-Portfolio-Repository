@@ -1,2 +1,1 @@
-# My-Portfolio-Repository
-I am creating my portfolio for the first time, so this is an experiment
+# Welcome to How2ProMax Creative Studio

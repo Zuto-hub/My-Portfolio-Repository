@@ -268,4 +268,42 @@
     WhatsApp
 </a>
 <footer>© 2026 How2ProMax Creative Studio</footer>
+    <script>
+
+document.querySelectorAll('.before-after-slider').forEach(slider => {
+
+    slider.addEventListener('input', function() {
+
+        const container = this.closest('.before-after-container');
+
+        const afterImage =
+            container.querySelector('.after-image-wrapper');
+
+        const line =
+            container.querySelector('.slider-line');
+
+        const value = this.value + '%';
+
+        afterImage.style.width = value;
+
+        line.style.left = value;
+
+    });
+
+});
+
+
+function scrollToProject(id) {
+
+    const element = document.getElementById(id);
+
+    if (element) {
+        element.scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+
+}
+
+</script>
 </body></html>

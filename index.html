@@ -55,185 +55,184 @@
 </div></section>
 
 <section id="portfolio">
+
     <h2>Featured Work</h2>
 
     <p class="portfolio-intro">
-        Explore some of my latest creative projects, from professional video
-        editing and photo retouching to audio production and visual content.
+        Explore some of my creative work, showcasing professional photo editing,
+        video editing and audio enhancement.
     </p>
 
     <div class="portfolio-grid">
 
-        <!-- PROJECT 1 -->
+
+        <!-- PHOTO EDITING PROJECT -->
+
         <div class="portfolio-card">
 
-            <div class="portfolio-media">
-                <img src="images/photo-editing.jpg"
-                     alt="Professional Photo Editing Project">
+            <div class="portfolio-media before-after-container">
+
+                <img
+                    src="images/BEFORE.png"
+                    alt="Photo before professional editing"
+                    class="before-image"
+                >
+
+                <div class="after-image-wrapper">
+                    <img
+                        src="images/AFTER.png"
+                        alt="Photo after professional editing"
+                    >
+                </div>
+
+                <div class="slider-line"></div>
+
+                <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="50"
+                    class="before-after-slider"
+                    aria-label="Compare before and after photo editing"
+                >
+
+                <span class="before-label">BEFORE</span>
+                <span class="after-label">AFTER</span>
+
             </div>
 
             <div class="portfolio-content">
-                <span class="portfolio-category">Photo Editing</span>
 
-                <h3>Professional Photo Retouching</h3>
+                <span class="portfolio-category">
+                    Photo Editing
+                </span>
+
+                <h3>
+                    Professional Photo Retouching
+                </h3>
 
                 <p>
-                    High-quality photo retouching, color correction and
-                    professional image enhancement.
+                    A before-and-after demonstration of professional photo
+                    restoration, retouching, enhancement and color correction.
                 </p>
 
-                <a href="https://YOUR-PROJECT-LINK.com"
-                   target="_blank"
-                   class="project-btn">
-                    View Project →
-                </a>
+                <button
+                    class="project-btn"
+                    onclick="scrollToProject('photo-project')">
+                    View Before & After →
+                </button>
+
             </div>
 
         </div>
 
 
-        <!-- PROJECT 2 -->
+        <!-- VIDEO EDITING PROJECT -->
+
         <div class="portfolio-card">
 
-            <div class="portfolio-media">
-                <img src="images/video-project.jpg"
-                     alt="Professional Video Editing Project">
+            <div class="portfolio-video">
+
+                <iframe
+                    src="https://www.youtube.com/embed/6JFCSqRGJC0"
+                    title="How2ProMax Creative Studio Video Editing Project"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+
             </div>
 
             <div class="portfolio-content">
-                <span class="portfolio-category">Video Editing</span>
 
-                <h3>YouTube Video Editing</h3>
+                <span class="portfolio-category">
+                    Video Editing
+                </span>
+
+                <h3>
+                    Professional Video Editing
+                </h3>
 
                 <p>
-                    Engaging YouTube video editing with smooth transitions,
-                    visual effects, sound design and professional storytelling.
+                    A professionally edited video showcasing creative editing,
+                    storytelling, transitions, sound design and visual enhancement.
                 </p>
 
-                <a href="https://www.youtube.com/watch?v=6JFCSqRGJC0"
-                   target="_blank"
-                   class="project-btn">
-                    View Project →
+                <a
+                    href="https://www.youtube.com/watch?v=6JFCSqRGJC0"
+                    target="_blank"
+                    class="project-btn">
+                    Watch Full Video →
                 </a>
+
             </div>
 
         </div>
 
 
-        <!-- PROJECT 3 -->
+        <!-- AUDIO EDITING PROJECT -->
+
         <div class="portfolio-card">
 
-            <div class="portfolio-media">
-                <img src="images/podcast-editing.jpg"
-                     alt="Podcast Audio Editing Project">
+            <div class="audio-comparison">
+
+                <div class="audio-item">
+
+                    <span>
+                        BEFORE
+                    </span>
+
+                    <audio controls>
+                        <source
+                            src="audio/Before.mp3"
+                            type="audio/mpeg">
+                        Your browser does not support audio playback.
+                    </audio>
+
+                </div>
+
+
+                <div class="audio-item">
+
+                    <span>
+                        AFTER
+                    </span>
+
+                    <audio controls>
+                        <source
+                            src="audio/After.mp3"
+                            type="audio/mpeg">
+                        Your browser does not support audio playback.
+                    </audio>
+
+                </div>
+
             </div>
 
             <div class="portfolio-content">
-                <span class="portfolio-category">Audio Editing</span>
 
-                <h3>Podcast Audio Production</h3>
+                <span class="portfolio-category">
+                    Audio Editing
+                </span>
+
+                <h3>
+                    Audio Restoration & Enhancement
+                </h3>
 
                 <p>
-                    Professional podcast editing including noise removal,
-                    voice enhancement, mixing and mastering.
+                    Hear the difference between the original audio and the
+                    professionally enhanced version after noise removal,
+                    voice enhancement and audio processing.
                 </p>
 
-                <a href="https://YOUR-PROJECT-LINK.com"
-                   target="_blank"
-                   class="project-btn">
-                    View Project →
-                </a>
             </div>
 
         </div>
 
-
-        <!-- PROJECT 4 -->
-        <div class="portfolio-card">
-
-            <div class="portfolio-media">
-                <img src="images/youtube-thumbnail.jpg"
-                     alt="YouTube Thumbnail Design">
-            </div>
-
-            <div class="portfolio-content">
-                <span class="portfolio-category">Graphic Design</span>
-
-                <h3>YouTube Thumbnail Design</h3>
-
-                <p>
-                    Eye-catching and professionally designed thumbnails
-                    created to capture attention and increase click-through rates.
-                </p>
-
-                <a href="https://YOUR-PROJECT-LINK.com"
-                   target="_blank"
-                   class="project-btn">
-                    View Project →
-                </a>
-            </div>
-
-        </div>
-
-
-        <!-- PROJECT 5 -->
-        <div class="portfolio-card">
-
-            <div class="portfolio-media">
-                <img src="images/commercial-edit.jpg"
-                     alt="Commercial Video Editing Project">
-            </div>
-
-            <div class="portfolio-content">
-                <span class="portfolio-category">Commercial Video</span>
-
-                <h3>Brand & Commercial Video</h3>
-
-                <p>
-                    Creative promotional videos designed to help brands
-                    communicate their message and connect with their audience.
-                </p>
-
-                <a href="https://YOUR-PROJECT-LINK.com"
-                   target="_blank"
-                   class="project-btn">
-                    View Project →
-                </a>
-            </div>
-
-        </div>
-
-
-        <!-- PROJECT 6 -->
-        <div class="portfolio-card">
-
-            <div class="portfolio-media">
-                <img src="images/wedding-highlights.jpg"
-                     alt="Wedding Highlights Video">
-            </div>
-
-            <div class="portfolio-content">
-                <span class="portfolio-category">Video Editing</span>
-
-                <h3>Wedding Highlights</h3>
-
-                <p>
-                    Cinematic wedding highlight editing that captures
-                    unforgettable moments and tells a beautiful story.
-                </p>
-
-                <a href="https://YOUR-PROJECT-LINK.com"
-                   target="_blank"
-                   class="project-btn">
-                    View Project →
-                </a>
-            </div>
-
-        </div>
 
     </div>
-</section>
 
+</section>
 <section id="about"><h2>About</h2>
 <p class="center">How2ProMax Creative Studio helps creators, brands and businesses produce high-quality digital content with fast turnaround and attention to detail.</p>
 </section>
